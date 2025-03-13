@@ -1,6 +1,15 @@
 name: My First Github Action
 
-on: [push]
+on:
+  push:
+    branches:
+      - main  # Or any branch you want to trigger the workflow on
+  workflow_dispatch: 
+
+    
+      
+
+  
 
 
 jobs:
